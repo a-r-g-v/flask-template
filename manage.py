@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import os
-from flask.ext.script import Manager, Shell
+from flask_script import Manager, Shell
 from app import create_app
 from flask import url_for
 
